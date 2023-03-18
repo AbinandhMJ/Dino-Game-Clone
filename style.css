@@ -1,0 +1,93 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    user-select: none;
+  }
+  
+  body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Press Start 2P', cursive;
+    background-color: #f7f7f7;
+  }
+  
+  .world {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .score {
+    position: absolute;
+    font-size: 2vmin;
+    color: #535353;
+    right: 1vmin;
+    top: 1vmin;
+  }
+  
+  .highscore {
+    position: absolute;
+    font-size: 2vmin;
+    color: #535353;
+    right: 10vmin;
+    top: 1vmin;
+  }
+  .separator {
+    position: absolute;
+    font-size: 2vmin;
+    color: #535353;
+    right: 7vmin;
+    top: 1vmin;
+  }
+  
+  .start-screen {
+    position: absolute;
+    font-size: 2vmin;
+    color: #535353;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  .ground {
+    --left: 0;
+    position: absolute;
+    width: 300%;
+    bottom: 0;
+    left: calc(var(--left) * 1%)
+  }
+  
+  .clouds {
+    --left: 0;
+    top: 0;
+    position: absolute;
+    width: 150%;
+    left: calc(var(--left) * 1%);
+  }
+
+.dino {
+    --bottom: 0;
+    position: absolute;
+    left: 1%;
+    height: 30%;
+    bottom: calc(var(--bottom) * 1%);
+}
+  
+.cactus {
+    position: absolute;
+    left: calc(var(--left) * 1%);
+    height: 30%;
+    bottom: 0;
+}
+
+.logo {
+  position: absolute;
+  left: 50%;
+  top: 1%;
+  right: 50%;
+}

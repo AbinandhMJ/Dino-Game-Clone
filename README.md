@@ -24,4 +24,6 @@ Gabriel designed the player character, named the "Lonely T-Rex".During developme
 
 # Disclaimer <br/>
 - This game was not developed on the basis / motive to sell / to merchandise.<br/>
-- This was developed only for the **Entertainment Purposes**
+- This was developed only for the **Entertainment Purposes**<br/>
+
+[Click Here to Play](https://dinogameclone.netlify.app/)
